@@ -1,0 +1,299 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 9206,
+      "max": [
+        2.1336212158203125,
+        4.180683135986328,
+        11.048639297485352
+      ],
+      "min": [
+        -2.1336212158203125,
+        -3.26543927192688,
+        -11.161242485046387
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 110472,
+      "componentType": 5126,
+      "count": 9206,
+      "max": [
+        0.9999590516090393,
+        0.9998472332954407,
+        0.9999999403953552
+      ],
+      "min": [
+        -0.9999686479568481,
+        -0.9999865889549255,
+        -0.999975323677063
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 9206,
+      "max": [
+        0.9999995231628418,
+        0.9999733567237854,
+        0.9999982118606567,
+        1.0
+      ],
+      "min": [
+        -0.9999995231628418,
+        -0.9999228119850159,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 9206,
+      "max": [
+        0.9956247210502625,
+        0.9970579743385315
+      ],
+      "min": [
+        0.0029429146088659763,
+        0.0029414284508675337
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 42150,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Osho (https://sketchfab.com/Crysis007-94)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/ember-reforged-axe-acab43aa516f48f5bfc1def6baef813b",
+      "title": "Ember Reforged Axe"
+    },
+    "generator": "Sketchfab-12.44.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 168600,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 73648,
+      "byteOffset": 168600,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 220944,
+      "byteOffset": 242248,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 147296,
+      "byteOffset": 463192,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 610488,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/T_StylAxerFire_01_baseColor.png"
+    },
+    {
+      "uri": "textures/T_StylAxerFire_01_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/T_StylAxerFire_01_emissive.png"
+    },
+    {
+      "uri": "textures/T_StylAxerFire_01_normal.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "emissiveTexture": {
+        "index": 2
+      },
+      "name": "T_StylAxerFire_01",
+      "normalTexture": {
+        "index": 3
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Group730.024_T_StylAxerFire_01_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        0.055074789551695424,
+        0.017711201197646242,
+        0.0018302977832386391,
+        0.0,
+        -0.011358039689073562,
+        0.03952791729775585,
+        -0.04072846443786048,
+        0.0,
+        -0.013712459690805423,
+        0.03839435203821217,
+        0.04108663033599692,
+        0.0,
+        0.07647363096475601,
+        -0.33145642280578613,
+        -0.09568867832422263,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "03b623593f584dd4975ac6364cb5a1df.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        100.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.629206793918314e-05,
+        -99.99999999999868,
+        0.0,
+        0.0,
+        99.99999999999868,
+        -1.629206793918314e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Group730.024"
+    },
+    {
+      "mesh": 0,
+      "name": "Group730.024_T_StylAxerFire_01_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
